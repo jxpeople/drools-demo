@@ -1,8 +1,8 @@
 package rules;
 
-import org.itstack.demo.model.User;
+import com.jxpeople.demo.model.User;
 
-global org.itstack.demo.service.UserService userService
+global com.jxpeople.demo.service.UserService userService
 
 rule "tree-A"
 when

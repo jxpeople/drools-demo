@@ -1,9 +1,9 @@
 package rules;
 
-import org.itstack.demo.model.Policy
-import org.itstack.demo.Result;
+import com.jxpeople.demo.model.Policy
+import com.jxpeople.demo.Result;
 
-global org.itstack.demo.Result res;
+global com.jxpeople.demo.Result res;
 
 rule "红A"
 when

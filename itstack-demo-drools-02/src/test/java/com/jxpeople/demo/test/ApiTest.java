@@ -1,19 +1,15 @@
-package org.itstack.demo.test;
+package com.jxpeople.demo.test;
 
 import com.alibaba.fastjson.JSON;
-import org.itstack.demo.Result;
-import org.itstack.demo.model.Policy;
+import com.jxpeople.demo.Result;
+import com.jxpeople.demo.model.Policy;
 import org.junit.Before;
 import org.junit.Test;
 import org.kie.api.KieServices;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 
-/**
- * 公众号：bugstack虫洞栈 | 沉淀、分享、成长，让自己和他人都能有所收获！
- * 博  客：http://bugstack.cn
- * Create by 小傅哥 on @2020
- */
+
 public class ApiTest {
 
     private KieContainer kieContainer;
